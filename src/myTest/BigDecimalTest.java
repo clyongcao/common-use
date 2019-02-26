@@ -35,7 +35,7 @@ public class BigDecimalTest {
 	@Test
 	public void testDivideAndRemainder() {
 
-		BigDecimal amt = new BigDecimal(500);
+		BigDecimal amt = new BigDecimal(400);
 		BigDecimal[] results = amt.divideAndRemainder(BigDecimal.valueOf(100));
 		System.out.println(results[0]);
 		System.out.println(results[1]);
