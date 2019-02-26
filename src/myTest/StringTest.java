@@ -56,7 +56,7 @@ public class StringTest {
 
 		StringBuilder sb = new StringBuilder();
 
-		String str1 = "dasdwsfdfwe;fewfcxfcsdfg";
+		String str1 = "dasdwsfdfwe;this is a new branch;fewfcxfcsdfg";
 		String str2 = "iyjtjfgjfjy;bnytuigreadf";
 
 		sb.append(str1);
