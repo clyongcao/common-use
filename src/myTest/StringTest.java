@@ -66,7 +66,7 @@ public class StringTest {
 		System.out.println(sb.toString());
 
 	}
-
+ 
 	@Test
 	public void triangle() {
 
