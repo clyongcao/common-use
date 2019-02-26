@@ -31,6 +31,7 @@ public class BigDecimalTest {
 
 	}
 
+	// 取余BD
 	@Test
 	public void testDivideAndRemainder() {
 
