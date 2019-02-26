@@ -17,7 +17,7 @@ public class NumTest {
 
 	public static void main(String[] args) {
 
-		BigDecimal totalAmount = new BigDecimal("1654.10");
+		BigDecimal totalAmount = new BigDecimal("1654.15");
 		BigDecimal compareTotalAmount = new BigDecimal("851.52");
 
 		Double totalAmountD = Double.valueOf((totalAmount.toString()));
