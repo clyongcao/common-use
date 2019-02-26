@@ -15,7 +15,7 @@ public class BigDecimalTest {
 
 	public static void main(String[] args) {
 
-		BigDecimal tenThousand = new BigDecimal("10000");
+		BigDecimal tenThousand = new BigDecimal("10000"); 
 
 		BigDecimal guaranteeDepositOriginal = new BigDecimal("50000.00");
 		BigDecimal technologyDepositOriginal = new BigDecimal("50000.00");
