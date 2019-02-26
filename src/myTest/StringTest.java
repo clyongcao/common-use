@@ -81,7 +81,7 @@ public class StringTest {
 	}
 
 	@Test
-	public void equalsTest() {
+	public void equalsTest1() {
 
 		String a = "品牌权书";
 		String b = "品牌授权书";
