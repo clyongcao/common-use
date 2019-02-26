@@ -12,7 +12,7 @@ public class CalendarTest {
 	
 	public static void main(String[] args) {
 		
-		Date now = new Date();		
+		Date now = new Date();
 		Calendar cal = Calendar.getInstance();
 		cal.setTime(now);
 		cal.add(Calendar.YEAR, 1);
