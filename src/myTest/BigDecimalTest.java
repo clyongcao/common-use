@@ -31,7 +31,11 @@ public class BigDecimalTest {
 
 	}
 
+<<<<<<< HEAD
 	// 取余BD
+=======
+	// 取余ER
+>>>>>>> refs/remotes/origin/t20190226
 	@Test
 	public void testDivideAndRemainder() {
 
