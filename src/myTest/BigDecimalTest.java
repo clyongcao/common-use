@@ -41,5 +41,49 @@ public class BigDecimalTest {
 		System.out.println(results[1]);
 
 	}
+	
+
+	@Test
+	public void testCompare() {
+
+		BigDecimal aimBigDecimal = new BigDecimal("-100000.00");
+		BigDecimal maxBigDecimal = new BigDecimal("100000");
+		BigDecimal minBigDecimal = new BigDecimal("0");
+
+		int compareMax = aimBigDecimal.compareTo(maxBigDecimal);
+		int compareMin = aimBigDecimal.compareTo(minBigDecimal);
+		// int compareResGt = aimBigDecimal.compareTo(maxBigDecimal);
+
+		System.out.println("compareMax："+compareMax);
+		System.out.println("compareMin："+compareMin);
+
+	}
+
+	@Test
+	public void testDivide() {
+
+		BigDecimal aimBigDecimal = new BigDecimal("10000.55");
+		BigDecimal divideBigDecimal = new BigDecimal("10000");
+
+		BigDecimal resBigDecimal = aimBigDecimal.divide(divideBigDecimal);
+		// int compareResGt = aimBigDecimal.compareTo(maxBigDecimal);
+
+		System.out.println(resBigDecimal);
+
+	}
+	
+	@Test
+	public void testMultiply() {
+
+		BigDecimal aimBigDecimal = new BigDecimal("10.55");
+		BigDecimal divideBigDecimal = new BigDecimal("10000");
+
+		BigDecimal resBigDecimal = aimBigDecimal.multiply(divideBigDecimal);
+		// int compareResGt = aimBigDecimal.compareTo(maxBigDecimal);
+
+		System.out.println(resBigDecimal);
+
+	}
+
 
 }
