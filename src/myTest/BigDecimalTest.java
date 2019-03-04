@@ -84,6 +84,23 @@ public class BigDecimalTest {
 		System.out.println(resBigDecimal);
 
 	}
+	
+	@Test
+	public void test2() {
+
+		BigDecimal[] BigDecimals1 = new BigDecimal[5];
+
+		BigDecimals1[1] = new BigDecimal("10");
+		BigDecimals1[2] = new BigDecimal("20");
+		BigDecimals1[3] = new BigDecimal("30");
+		BigDecimals1[4] = new BigDecimal("40");
+		BigDecimals1[0] = new BigDecimal("50");
+
+		for (BigDecimal bigDecimal : BigDecimals1) {
+			System.out.println(bigDecimal);	
+		}
+
+	}
 
 
 }
