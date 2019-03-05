@@ -101,6 +101,13 @@ public class BigDecimalTest {
 		}
 
 	}
+	
+	@Test
+	public void sysoBd() {
 
+		BigDecimal testBd = new BigDecimal("000");
+		System.out.println(testBd);
+		
+	}
 
 }
